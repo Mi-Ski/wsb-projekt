@@ -1,0 +1,40 @@
+/*
+Theme Name: Furnitrix
+Theme URI: https://catchthemes.com/themes/furnitrix
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Furnitrix is an elegant free eCommerce WordPress block theme for full site editing. This block-based theme comes with a stunning design. The theme is perfect for all types of online stores that display their products and services online. Furnitrix is a WooCommerce-ready theme that is fully compatible with the WooCommece plugin. The theme is fully responsive so, your online stores will look beautiful on all devices. It includes highly customizable features and sections that will show your product in a pleasing way. Moreover, there are 17+ block patterns, 17 Templates, and 11 Templates Parts. Some of the block patterns are 404 Header, Archive Post Header, Blog Header, Featured Content, Featured Products, Header Media, Hero Content, Hidden 404, Post Header, Shop Header, Footer Three Columns, Sidebar Products, and many more. Furnitrix is a perfect theme to create an enticing and professional online shop. It comes with everything to showcase all the products and grab your visitors attention.
+Requires at least: 5.9
+Tested up to: 6.2
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: furnitrix
+Tags: e-commerce, blog, portfolio, one-column, two-columns, left-sidebar, right-sidebar, block-patterns, block-styles, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-site-editing,  threaded-comments, wide-blocks, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Furnitrix is based on Catch FSE WordPress Theme, 2012-2023 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import 'sass/media-query';
+
+/* --- Block Color
+-------------------------------------------------------- */
+@import 'sass/color';
